@@ -1,8 +1,8 @@
 <script setup lang="ts">
-import CardMain from './CardMain.vue'
+import Card from './Card.vue'
 </script>
 <template>
   <div class="grid grid-cols-4 gap-5">
-    <CardMain :price="5232" title="Кросы" image-url="/sneakers/sneakers-2.jpg" />
+    <Card :price="5232" title="Кросы" image-url="/sneakers/sneakers-2.jpg" />
   </div>
 </template>
